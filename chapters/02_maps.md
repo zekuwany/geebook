@@ -63,7 +63,7 @@ Map
 ```
 
 ```{code-cell} ipython3
-Map = geemap.Map(center=[40, -100], zoom=4, height=600)
+Map = geemap.Map(center=[41.73, 9.25], zoom=4, height=600)
 Map
 ```
 
@@ -88,7 +88,7 @@ import geemap.foliumap as geemap
 ```
 
 ```{code-cell} ipython3
-Map = geemap.Map(center=[40, -100], zoom=4, height=600)
+Map = geemap.Map(center=[41.73, 9.25], zoom=4, height=600)
 Map
 ```
 
@@ -174,7 +174,7 @@ Map
 ### WMS tiles
 
 ```{code-cell} ipython3
-Map = geemap.Map(center=[40, -100], zoom=4)
+Map = geemap.Map(center=[41.73, 9.25], zoom=4)
 url = 'https://www.mrlc.gov/geoserver/mrlc_display/NLCD_2019_Land_Cover_L48/wms?'
 Map.add_wms_layer(
     url=url,
